@@ -17,7 +17,7 @@ function alphabetPosition(text) {
     if (position >= 65 && position <= 90) {
       result += (position - 64) + ' ';
     }
-}
+  }
   text = result.trim(); // Trim beginning and end whitespace
   return text;
 }
